@@ -1,0 +1,237 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe0e6; 
+            color: #fff; }
+        header {
+            background-color: #000; 
+            color: #fafaf8; 
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        nav a {
+            color: #fafaf7; 
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 0;
+        }
+        #inicio {
+            background-color: #000;
+        }
+        #inicio h2, #inicio p {
+            color: #fff6c6; 
+            text-align: center;
+        }
+        #catalogo {
+            background-color: #f9f9f9; 
+        }
+        #catalogo h2 {
+            color: #090500;
+            text-align: center;
+        }
+        .producto {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .item-producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            color: #000; }
+            
+        .item-producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .item-producto h3 {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .item-producto p {
+            font-size: 18px;
+            color: #ffd700;
+        }
+        .item-producto button {
+            width: 100%;
+            background-color: #ffd700; 
+            color: #000; 
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .item-producto button:hover {
+            background-color: #ccac00;
+        }
+      #metodos {
+    background-color: #000; 
+    color: #ffd700;
+    text-align: center; 
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#metodos h3 {
+    margin-bottom: 10px;
+}
+
+#metodos p {
+    margin-bottom: 20px;
+}
+
+#metodos div {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+#metodos div img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 5px; 
+}
+
+#metodos div p {
+    margin: 0; 
+    font-size: 16px;
+}
+        
+        #contacto {
+            background-color: #f9f9f9; 
+            color: #000; 
+            padding: 40px;
+            text-align: center;
+        }
+        #contacto a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        #contacto a:hover {
+            text-decoration: underline;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 18px;
+            text-decoration: none;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+        }
+        .whatsapp-button i {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+        footer {
+            background-color: #000; 
+            color: #fff; 
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .redes-sociales {
+            margin-top: 10px;
+        }
+        .redes-sociales a {
+            color: #ffd700; 
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .redes-sociales a:hover {
+            opacity: 0.8;
+        }
+        .slogan {
+            background-color: #ccc;
+            color: #000; 
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;}
+
+                
+    #enviar-reseña h2 {
+        margin-bottom: 20px;
+    }
+
+    #formulario-reseña {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #formulario-reseña div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulario-reseña label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    #formulario-reseña input[type="text"],
+    #formulario-reseña textarea,
+    #formulario-reseña select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    #formulario-reseña button[type="submit"] {
+        background-color: #ffd700;
+        color: #000;
+        border: none;
+        padding: 15px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    #formulario-reseña button[type="submit"]:hover {
+        background-color: #ccac00;
+    }
